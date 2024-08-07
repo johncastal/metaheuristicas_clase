@@ -24,7 +24,7 @@ Cnn:int = 1000 #Longitud inicial del circuito
 alpha:int = 1 #Importancia relativa de depositos de feromona
 beta:int = 5 #Importancia relativa de los nodos más cercanos
 rho:float = 0.1 #Factor de evaporación
-#Tao:np.ndarray = np.ones((n,n)) * m / Cnn #matriz de feromonas
+#Tao:np.ndarray = np.ones((n,n)) * m / Cnn #matriz de feromonas nxn (clientes)
 iterMax:int = 100 #Número máximo de iteraciones
 pbar = tqdm(total=iterMax)
 

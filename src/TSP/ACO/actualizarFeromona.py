@@ -20,9 +20,9 @@ def actualizarFeromona(Tao:np.ndarray,
     #        cliente_l =  #cliente l de la ruta i
     #        
     #        # indexa el valor de Tao
-    #        Tao[XXXX] += 
+    #        Tao[XXXX,XXXXX] += 
     #        
-    #    # actualizar feromona para la ultima ciudad del circuito
+    #    # actualizar feromona para la ultima ciudad del circuito (requerido ya que el arco de retorno es una abstracción en el vecto de solución)
     #    cliente_k = 
     #    cliente_l = 
     #    Tao[XXXXX] += 
