@@ -39,12 +39,12 @@ rho:int = dims.shape[0] * dims.shape[1] # Longitud de cadena de markov
 beta:int = 1 # factor de ajuste de rho
 
 # función objetivo
-#vecino_actual = 
+#vecino_actual =        # como solución inicial
 #funcion_objetivo_actual:int = 
 
 #incumbente = {
-#    "funcion_objetivo": funcion_objetivo_actual,
-#    "solucion": vecino_actual,
+#    "funcion_objetivo": ,
+#    "solucion": 
 #}
 
 # calculo de temperatura inicial
@@ -57,9 +57,9 @@ beta:int = 1 # factor de ajuste de rho
 
 #### inicio de iteraciones del simulated annealing ####
 contIter = 0
-#while XXXXXXX < XXXXXXX:
-    #k = 0
-    #while X < XXXX:
+#while XXXXXXX < XXXXXXX:           # bucle de criterio de terminación
+    #k = 0      # contador de cambios de estados de energía
+    #while X < XXXX:   # bucle de cambio de estado de energía. Verificación de k con respecto al valor de la cadena de markov
         #k += 1
         #vecino_alternativa = generar_vecino(dims)
         #funcion_objetivo_alternativa,_, _ = bin_pack_bl(vecino_alternativa, bin_capacity)
