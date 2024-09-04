@@ -56,13 +56,13 @@ iter:int = 0
             #nuevo_vecino, movimiento = opt_operator(vecino,memoria_tabu)
             #vecindario_candidatos[i,:] = 
             
-            #insertar la tupla de movimientos en el vector de movimientos candidatos
+            #insertar la tupla de movimientos en el vector de movimientos candidatos (si no mejoran serán tabú)
             #movimientos_candidatos[i,:] = 
 
         #iniciar vector de funciones objetivo
         #fo_v:np.ndarray = np.zeros(Tamano_vecindario_explorar,dtype=int) # funciones objetivo del vencidario. Inicializar variable
         
-        #obtener funciones objetivo de cada vecindario
+        #obtener funciones objetivo de cada vecino
         ### inserte aquí su código ###
         #print(fo_v)
 
